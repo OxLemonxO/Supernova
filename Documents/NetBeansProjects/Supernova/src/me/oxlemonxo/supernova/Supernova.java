@@ -23,7 +23,7 @@ public class Supernova
         try
         {
             jda = new JDABuilder()
-                    .setBotToken("urbottoken")
+                    .setBotToken("yourbottokengoeshere")
                     .addListener(new BotListener())
                     .addListener(new CommandListener())
                     .buildBlocking();
